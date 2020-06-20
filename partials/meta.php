@@ -1,0 +1,1 @@
+<title><?php echo $title; ?> | DarkStack</title>

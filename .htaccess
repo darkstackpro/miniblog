@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+	ServerSignature Off
+	AddDefaultCharset UTF-8
+
+	RewriteEngine On
+	RewriteBase /
+
+	ErrorDocument 404 /error.php
+	ErrorDocument 400 /error.php
+</IfModule>
